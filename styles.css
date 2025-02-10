@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    gap: 5rem;
+  }
+  #navbar header{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .navs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+  }
+  .navs a {
+    color: blue;
+  }
+  .nav-link{
+    text-decoration: none;
+    color: black;
+  }
+  main > .head{
+    color: brown;
+  }
+  
+  @media screen and (max-width: 786px){
+    body{
+      flex-direction: column;
+      gap: 0;
+    }
+    .navs{
+      flex-direction: row;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+  }
